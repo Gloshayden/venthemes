@@ -284,7 +284,7 @@ body {
 }
 /* * *  TITLE BAR * */
 .titleBar_a934d8 {
-  height: 24px;
+  height: 28px;
 }
 .titleBar_a934d8.withFrame_a934d8 {
   margin-top: 0;
@@ -5065,7 +5065,7 @@ button.button_f67531
   position: absolute;
   margin-top: 0px;
   z-index: -1;
-  margin-left: -3px;
+  margin-left: 0px;
 }
 .headerText_f9f2ca>span {
   margin-left: 3px;
