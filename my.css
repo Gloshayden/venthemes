@@ -169,13 +169,6 @@
   --text-brand: hsl(var(--accent-hsl));
   --text-link: hsl(var(--accent-hsl));
 }
-/* html custom font styles */
-body {
-  font-family: "Tilt Neon";
-}
-code {
-  font-family: 'Lexend Deca';
-}
 body:before {
   content: "Thanks for using " var(--windows-title)"!";
   z-index: 1000000000000000000000000;
@@ -385,7 +378,7 @@ body {
 }
 .wordmark_a934d8::before {
   content: var(--windows-title);
-  font-size: 15px;
+  font-size: 12px;
   font-family: "Dancing Script";
   position: fixed;
   color: hsla(var(--accent-hsl), 1);
@@ -399,13 +392,6 @@ body {
   transition: all 0.5s ease-in-out;
   letter-spacing: 2px;
   text-shadow: 0px 0px 0px hsla(var(--accent-hsl));
-}
-.wordmark_a934d8:hover:before {
-  content: var(--windows-title) " v." var(--version);
-  text-shadow: 0px 0px 10px hsla(var(--accent-hsl));
-  font-family: "Tilt Neon";
-  letter-spacing: 4px;
-  color: white;
 }
 /* * *  CHANNELS LIST * */
 .platform-win .sidebar_a4d4d9 {
