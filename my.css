@@ -2136,12 +2136,6 @@ body {
   border: none;
 }
 /* * *  MESSAGES ACTIONS * */
-.wrapper_ef319f {
-  background-color: var(--popout-color) !important;
-  border-radius: var(--popout-radius) !important;
-  box-shadow: var(--popout-shadow) !important;
-  backdrop-filter: blur(var(--popout-blur));
-}
 .message_ddcc45 {
   padding: 0;
   background-color: transparent !important;
